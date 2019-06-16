@@ -3,7 +3,7 @@
 //  LandmarksTests
 //
 //  Created by Nikolaos Papadakis on 6/4/19.
-//  Copyright © 2019 Nik Papadakis. All rights reserved.
+//  Copyright © 2019 Optimal Mobile Solutions Inc. All rights reserved.
 //
 
 import XCTest
