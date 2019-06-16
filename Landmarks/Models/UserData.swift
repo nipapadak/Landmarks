@@ -1,13 +1,12 @@
-//
-//  UserData.swift
-//  Landmarks
-//
-//  Created by Nikolaos Papadakis on 6/16/19.
-//  Copyright © 2019 Optimal Mobile Solutions Inc. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
 
-import SwiftUI
+Abstract:
+A model object that stores app data.
+*/
+
 import Combine
+import SwiftUI
 
 final class UserData: BindableObject {
     let didChange = PassthroughSubject<UserData, Never>()
@@ -17,7 +16,7 @@ final class UserData: BindableObject {
             didChange.send(self)
         }
     }
-    
+
     var landmarks = landmarkData {
         didSet {
             didChange.send(self)
